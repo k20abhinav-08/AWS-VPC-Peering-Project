@@ -69,4 +69,4 @@ allow traffic.
 All resources were deleted after testing ([evidence](screenshots/13-cleanup.png)).
 
 ## Full report
-[Download the PDF report](report/YourName_EWB_VPC_Peering.pdf)
+[Download the PDF report](report/Kakkireni_Abhinav_EWB_VPC_Peering)
