@@ -7,7 +7,7 @@ Student: Kakkireni Abhinav | Region: ap-south-1 (Mumbai) | Completed: 29/10/2026
 Course: EWB Courses, AWS Architect Associate
 
 ## Architecture
-![Architecture](architecture/EWB_VPC_Peering_Architecture.png)
+![Architecture](architecture/Architecture.png)
 
 ## Objective
 Connect two non-overlapping VPCs with peering so private instances can
