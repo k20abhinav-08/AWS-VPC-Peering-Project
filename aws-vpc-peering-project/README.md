@@ -44,13 +44,13 @@ exchange traffic using private IPv4 addresses, with a bastion host for admin acc
 ## Test results
 | # | Test | Result | Evidence |
 |---|---|---|---|
-| 1 | Baseline ping before peering | 100% loss | [screenshot](screenshots/05-baseline-ping-fail.png) |
+| 1 | Baseline ping before peering | 100% loss | [screenshot](screenshots/ssh_5.3.png) |
 | 2 | App-A to App-B ping | 4/4 replies | [screenshot](screenshots/07-ping-a-to-b.png) |
 | 3 | App-B to App-A ping | 4/4 replies | [screenshot](screenshots/app-b_6.1.png) |
-| 4 | SSH to App-B via bastion | Success | [screenshot](screenshots/09-ssh-app-b-via-bastion.png) |
+| 4 | SSH to App-B via bastion | Success | [screenshot](screenshots/app-b_6.1.png) |
 | 5 | No public IP on private hosts | Confirmed | [screenshot](screenshots/10-no-public-ip.png) |
-| 6 | ICMP rule removed | Ping fails | [screenshot](screenshots/11-icmp-removed-ping-fail.png) |
-| 7 | ICMP rule restored | Ping works | [screenshot](screenshots/12-icmp-restored-ping-ok.png) |
+| 6 | ICMP rule removed | Ping fails | [screenshot](screenshots/icmp_removed.png) |
+| 7 | ICMP rule restored | Ping works | [screenshot](screenshots/icmp_restored.png) |
 
 ## How it works
 **Forward path:** App-A sends to 10.20.1.43. Its route table sends 10.20.0.0/16
