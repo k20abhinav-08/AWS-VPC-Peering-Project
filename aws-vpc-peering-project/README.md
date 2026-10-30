@@ -46,7 +46,7 @@ exchange traffic using private IPv4 addresses, with a bastion host for admin acc
 |---|---|---|---|
 | 1 | Baseline ping before peering | 100% loss | [screenshot](screenshots/05-baseline-ping-fail.png) |
 | 2 | App-A to App-B ping | 4/4 replies | [screenshot](screenshots/07-ping-a-to-b.png) |
-| 3 | App-B to App-A ping | 4/4 replies | [screenshot](screenshots/08-ping-b-to-a.png) |
+| 3 | App-B to App-A ping | 4/4 replies | [screenshot](screenshots/app-b_6.1.png) |
 | 4 | SSH to App-B via bastion | Success | [screenshot](screenshots/09-ssh-app-b-via-bastion.png) |
 | 5 | No public IP on private hosts | Confirmed | [screenshot](screenshots/10-no-public-ip.png) |
 | 6 | ICMP rule removed | Ping fails | [screenshot](screenshots/11-icmp-removed-ping-fail.png) |
