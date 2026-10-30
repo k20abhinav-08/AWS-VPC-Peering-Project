@@ -45,10 +45,10 @@ exchange traffic using private IPv4 addresses, with a bastion host for admin acc
 | # | Test | Result | Evidence |
 |---|---|---|---|
 | 1 | Baseline ping before peering | 100% loss | [screenshot](screenshots/ssh_5.3.png) |
-| 2 | App-A to App-B ping | 4/4 replies | [screenshot](screenshots/07-ping-a-to-b.png) |
+| 2 | App-A to App-B ping | 4/4 replies | [screenshot](screenshots/app-a_6.2.png) |
 | 3 | App-B to App-A ping | 4/4 replies | [screenshot](screenshots/app-b_6.1.png) |
 | 4 | SSH to App-B via bastion | Success | [screenshot](screenshots/app-b_6.1.png) |
-| 5 | No public IP on private hosts | Confirmed | [screenshot](screenshots/10-no-public-ip.png) |
+| 5 | No public IP on private hosts | Confirmed | [screenshot](screenshots/Instance_4.1.png) |
 | 6 | ICMP rule removed | Ping fails | [screenshot](screenshots/icmp_removed.png) |
 | 7 | ICMP rule restored | Ping works | [screenshot](screenshots/icmp_restored.png) |
 
